@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="e">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/Logo.png" alt="logo">
+    </header>
+    <main>
+        <div class="input-section">
+            <textarea class="input-text" cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                <button class="btn-limpiar" onclick="btnLimpiar()">Limpiar</button>
+
+            </div>
+        </div>
+        <div class="output-section">
+            <textarea class="mensaje"  readonly placeholder="Ningun mensaje fue encontrado"></textarea>
+            <button class="copiar" onclick="btnCopiar()">Copiar</button>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>

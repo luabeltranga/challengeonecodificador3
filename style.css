@@ -1,0 +1,94 @@
+body {
+  background-color: #f3f5fc;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+  flex: 1 1 0px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-text {
+  height: 50%;
+  width: 90%;
+  resize: none;
+  display: block;
+  margin: 0;
+  border: none;
+  color: #0A3871;
+  font-size: 32px;
+  font-family: 'inter';
+}
+.botones {
+  padding: 10px;
+
+}
+
+.btn-encriptar {
+  cursor: pointer;
+  background-color: rgb(116, 116, 216);
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn-desencriptar {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .btn-limpiar {
+    cursor: pointer;
+    background-color:white;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+.mensaje {
+  width: 300px;
+  height: 80%;
+  resize: none;
+  display: block;
+  background-image: url(imagenes/Muñeco.png);
+  background-repeat: no-repeat;
+  background-position: 20%;
+  border: 1px solid;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'inter';
+}
+
+.output-section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mensaje::placeholder {
+  font-size: 20px;
+  color: #000000;
+  font-weight: bold;
+  position: relative;
+  top: 70%;
+  padding: 5%;
+  text-align: center;
+}
+.copiar {
+  background-color: rgb(116, 116, 216);
+  border-radius: 3px;
+  width: 50%;
+  height: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+}
